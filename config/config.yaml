@@ -1,0 +1,150 @@
+# Synthetic Review Generator Configuration
+
+# Generation settings
+generation:
+  total_samples: 300
+  batch_size: 10
+  max_retries: 3
+  
+# Model configuration
+models:
+  - name: "mistral-large-latest"
+    provider: "mistral"
+    enabled: true
+    temperature: 0.8
+    max_tokens: 500
+    
+  - name: "mistral-small-latest"
+    provider: "mistral"
+    enabled: true
+    temperature: 0.8
+    max_tokens: 500
+
+# Personas - Different types of developers
+personas:
+  - name: "Backend Developer"
+    description: "Experienced backend engineer focused on APIs and server-side logic"
+    characteristics:
+      - "Mentions API quality and documentation"
+      - "Cares about performance and scalability"
+      - "Technical and detailed feedback"
+    weight: 0.25
+    
+  - name: "DevOps Engineer"
+    description: "Infrastructure and automation specialist"
+    characteristics:
+      - "Focuses on CI/CD integration"
+      - "Values automation and reliability"
+      - "Mentions deployment and monitoring"
+    weight: 0.25
+    
+  - name: "Frontend Developer"
+    description: "UI/UX focused developer"
+    characteristics:
+      - "Cares about developer experience"
+      - "Mentions ease of use and documentation"
+      - "Values good UI and intuitive interfaces"
+    weight: 0.20
+    
+  - name: "QA Engineer"
+    description: "Quality assurance and testing specialist"
+    characteristics:
+      - "Focuses on testing capabilities"
+      - "Mentions bug detection and reliability"
+      - "Values comprehensive test coverage"
+    weight: 0.15
+    
+  - name: "Full Stack Developer"
+    description: "Generalist developer working across the stack"
+    characteristics:
+      - "Balanced perspective on features"
+      - "Mentions integration with other tools"
+      - "Values versatility and ease of setup"
+    weight: 0.15
+
+# Rating distribution (should sum to 1.0)
+rating_distribution:
+  5: 0.25  # 25% - Excellent
+  4: 0.35  # 35% - Good
+  3: 0.25  # 25% - Average
+  2: 0.10  # 10% - Below average
+  1: 0.05  # 5%  - Poor
+
+# Dev tool categories
+tool_categories:
+  - name: "API Testing Tools"
+    examples: ["Postman", "Insomnia", "Thunder Client", "REST Client"]
+    features:
+      - "Request builder"
+      - "Response validation"
+      - "Environment variables"
+      - "Collection management"
+      - "Authentication support"
+      - "Test automation"
+    
+  - name: "CI/CD Platforms"
+    examples: ["GitHub Actions", "GitLab CI", "Jenkins", "CircleCI"]
+    features:
+      - "Pipeline configuration"
+      - "Build automation"
+      - "Deployment workflows"
+      - "Integration with version control"
+      - "Parallel execution"
+      - "Artifact management"
+    
+  - name: "Monitoring & Observability"
+    examples: ["Datadog", "New Relic", "Grafana", "Prometheus"]
+    features:
+      - "Real-time metrics"
+      - "Log aggregation"
+      - "Alert configuration"
+      - "Dashboard customization"
+      - "APM capabilities"
+      - "Distributed tracing"
+    
+  - name: "Code Quality Tools"
+    examples: ["SonarQube", "ESLint", "Prettier", "CodeClimate"]
+    features:
+      - "Static code analysis"
+      - "Code formatting"
+      - "Security scanning"
+      - "Technical debt tracking"
+      - "IDE integration"
+      - "Custom rule configuration"
+    
+  - name: "IDE Extensions"
+    examples: ["GitHub Copilot", "GitLens", "Live Share", "Docker Extension"]
+    features:
+      - "Code completion"
+      - "Syntax highlighting"
+      - "Debugging support"
+      - "Version control integration"
+      - "Keyboard shortcuts"
+      - "Customization options"
+
+# Review characteristics
+review_characteristics:
+  length:
+    min_words: 30
+    max_words: 200
+    
+  tone:
+    - "professional"
+    - "casual"
+    - "technical"
+    - "enthusiastic"
+    
+  structure:
+    include_pros_cons: true
+    mention_specific_features: true
+    include_use_case: true
+    
+# Quality guardrails thresholds
+quality_thresholds:
+  min_quality_score: 40  # 0-100 scale (lowered for smaller models)
+  max_semantic_similarity: 0.90  # Cosine similarity threshold (more lenient)
+  min_unique_words_ratio: 0.3  # Vocabulary diversity (lowered)
+  sentiment_rating_tolerance: 1.5  # Allowed difference between sentiment and rating (more lenient)
+  min_technical_terms: 1  # Minimum technical vocabulary words (lowered)
+  max_regeneration_attempts: 3
+

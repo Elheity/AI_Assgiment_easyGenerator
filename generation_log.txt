@@ -1,0 +1,10 @@
+============================================================
+SYNTHETIC REVIEW GENERATOR - FULL PIPELINE
+============================================================
+
+[1/3] Collecting real reviews...
+Collecting 50 real dev tool reviews...
+✓ Collected 50 reviews and saved to data/real_reviews/real_reviews.json
+
+[2/3] Generating synthetic reviews...
+Device set to use cpu

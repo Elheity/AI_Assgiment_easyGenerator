@@ -1,0 +1,502 @@
+[
+  {
+    "id": "real_review_1",
+    "text": "Postman has been a game-changer for our API development workflow. The request builder is intuitive, and the collection management makes it easy to organize endpoints. Environment variables are super helpful for switching between dev/staging/prod. Only wish the free tier had better team collaboration features.",
+    "rating": 5,
+    "tool": "Postman",
+    "category": "API Testing Tools",
+    "source": "sample_data",
+    "word_count": 44,
+    "collected_at": "2025-12-11 07:47:36"
+  },
+  {
+    "id": "real_review_2",
+    "text": "GitHub Actions is decent for CI/CD but the YAML configuration can get complex quickly. Integration with GitHub repos is seamless which is great. Parallel execution works well but debugging failed workflows is sometimes frustrating. Documentation could be better.",
+    "rating": 3,
+    "tool": "GitHub Actions",
+    "category": "CI/CD Platforms",
+    "source": "sample_data",
+    "word_count": 38,
+    "collected_at": "2025-12-11 07:47:36"
+  },
+  {
+    "id": "real_review_3",
+    "text": "Datadog's monitoring capabilities are excellent. Real-time metrics and log aggregation work flawlessly. The dashboard customization is powerful, though it takes time to learn. APM features have helped us identify bottlenecks quickly. Pricing is steep for small teams though.",
+    "rating": 4,
+    "tool": "Datadog",
+    "category": "Monitoring & Observability",
+    "source": "sample_data",
+    "word_count": 38,
+    "collected_at": "2025-12-11 07:47:36"
+  },
+  {
+    "id": "real_review_4",
+    "text": "SonarQube catches code quality issues that we'd otherwise miss. Static analysis is thorough and the technical debt tracking is valuable. However, setup was painful and the UI feels outdated. Integration with our CI pipeline works but required significant configuration.",
+    "rating": 3,
+    "tool": "SonarQube",
+    "category": "Code Quality Tools",
+    "source": "sample_data",
+    "word_count": 39,
+    "collected_at": "2025-12-11 07:47:36"
+  },
+  {
+    "id": "real_review_5",
+    "text": "GitHub Copilot has significantly improved my coding speed. The AI suggestions are surprisingly accurate most of the time. It's especially helpful for boilerplate code and common patterns. Sometimes suggests outdated approaches though. Worth the subscription for professional developers.",
+    "rating": 4,
+    "tool": "GitHub Copilot",
+    "category": "IDE Extensions",
+    "source": "sample_data",
+    "word_count": 38,
+    "collected_at": "2025-12-11 07:47:36"
+  },
+  {
+    "id": "real_review_6",
+    "text": "Insomnia is a solid alternative to Postman. The UI is cleaner and less cluttered. GraphQL support is excellent. However, it lacks some advanced features like mock servers. Good for individual developers but team features are limited.",
+    "rating": 4,
+    "tool": "Insomnia",
+    "category": "API Testing Tools",
+    "source": "sample_data",
+    "word_count": 36,
+    "collected_at": "2025-12-11 07:47:36"
+  },
+  {
+    "id": "real_review_7",
+    "text": "CircleCI's build times are fast and the parallel execution is great. Configuration is straightforward compared to other CI tools. Artifact management works well. The free tier is generous. Only downside is occasional platform outages that block our deployments.",
+    "rating": 4,
+    "tool": "CircleCI",
+    "category": "CI/CD Platforms",
+    "source": "sample_data",
+    "word_count": 38,
+    "collected_at": "2025-12-11 07:47:36"
+  },
+  {
+    "id": "real_review_8",
+    "text": "Grafana dashboards are beautiful and highly customizable. The visualization options are extensive. Integration with Prometheus works seamlessly. Learning curve is steep though, and query syntax takes time to master. Open source version is feature-rich.",
+    "rating": 4,
+    "tool": "Grafana",
+    "category": "Monitoring & Observability",
+    "source": "sample_data",
+    "word_count": 34,
+    "collected_at": "2025-12-11 07:47:36"
+  },
+  {
+    "id": "real_review_9",
+    "text": "ESLint is essential for JavaScript projects. Catches common errors and enforces code style consistently. Custom rule configuration is powerful. IDE integration works perfectly. Can be slow on large codebases but the trade-off is worth it.",
+    "rating": 5,
+    "tool": "ESLint",
+    "category": "Code Quality Tools",
+    "source": "sample_data",
+    "word_count": 35,
+    "collected_at": "2025-12-11 07:47:36"
+  },
+  {
+    "id": "real_review_10",
+    "text": "GitLens transforms VS Code's Git capabilities. Blame annotations are incredibly useful. The commit graph visualization helps understand project history. Some features feel overwhelming at first but you can disable what you don't need. Highly recommended for any Git user.",
+    "rating": 5,
+    "tool": "GitLens",
+    "category": "IDE Extensions",
+    "source": "sample_data",
+    "word_count": 39,
+    "collected_at": "2025-12-11 07:47:36"
+  },
+  {
+    "id": "real_review_11",
+    "text": "Postman has been a game-changer for our API development workflow. The request builder is intuitive, and the collection management makes it easy to organize endpoints. Environment variables are super helpful for switching between dev/staging/prod. Only wish the free tier had better team collaboration features.",
+    "rating": 5,
+    "tool": "Postman",
+    "category": "API Testing Tools",
+    "source": "sample_data",
+    "word_count": 44,
+    "collected_at": "2025-12-11 07:47:36"
+  },
+  {
+    "id": "real_review_12",
+    "text": "GitHub Actions is decent for CI/CD but the YAML configuration can get complex quickly. Integration with GitHub repos is seamless which is great. Parallel execution works well but debugging failed workflows is sometimes frustrating. Documentation could be better.",
+    "rating": 3,
+    "tool": "GitHub Actions",
+    "category": "CI/CD Platforms",
+    "source": "sample_data",
+    "word_count": 38,
+    "collected_at": "2025-12-11 07:47:36"
+  },
+  {
+    "id": "real_review_13",
+    "text": "Datadog's monitoring capabilities are excellent. Real-time metrics and log aggregation work flawlessly. The dashboard customization is powerful, though it takes time to learn. APM features have helped us identify bottlenecks quickly. Pricing is steep for small teams though.",
+    "rating": 4,
+    "tool": "Datadog",
+    "category": "Monitoring & Observability",
+    "source": "sample_data",
+    "word_count": 38,
+    "collected_at": "2025-12-11 07:47:36"
+  },
+  {
+    "id": "real_review_14",
+    "text": "SonarQube catches code quality issues that we'd otherwise miss. Static analysis is thorough and the technical debt tracking is valuable. However, setup was painful and the UI feels outdated. Integration with our CI pipeline works but required significant configuration.",
+    "rating": 3,
+    "tool": "SonarQube",
+    "category": "Code Quality Tools",
+    "source": "sample_data",
+    "word_count": 39,
+    "collected_at": "2025-12-11 07:47:36"
+  },
+  {
+    "id": "real_review_15",
+    "text": "GitHub Copilot has significantly improved my coding speed. The AI suggestions are surprisingly accurate most of the time. It's especially helpful for boilerplate code and common patterns. Sometimes suggests outdated approaches though. Worth the subscription for professional developers.",
+    "rating": 4,
+    "tool": "GitHub Copilot",
+    "category": "IDE Extensions",
+    "source": "sample_data",
+    "word_count": 38,
+    "collected_at": "2025-12-11 07:47:36"
+  },
+  {
+    "id": "real_review_16",
+    "text": "Insomnia is a solid alternative to Postman. The UI is cleaner and less cluttered. GraphQL support is excellent. However, it lacks some advanced features like mock servers. Good for individual developers but team features are limited.",
+    "rating": 4,
+    "tool": "Insomnia",
+    "category": "API Testing Tools",
+    "source": "sample_data",
+    "word_count": 36,
+    "collected_at": "2025-12-11 07:47:36"
+  },
+  {
+    "id": "real_review_17",
+    "text": "CircleCI's build times are fast and the parallel execution is great. Configuration is straightforward compared to other CI tools. Artifact management works well. The free tier is generous. Only downside is occasional platform outages that block our deployments.",
+    "rating": 4,
+    "tool": "CircleCI",
+    "category": "CI/CD Platforms",
+    "source": "sample_data",
+    "word_count": 38,
+    "collected_at": "2025-12-11 07:47:36"
+  },
+  {
+    "id": "real_review_18",
+    "text": "Grafana dashboards are beautiful and highly customizable. The visualization options are extensive. Integration with Prometheus works seamlessly. Learning curve is steep though, and query syntax takes time to master. Open source version is feature-rich.",
+    "rating": 4,
+    "tool": "Grafana",
+    "category": "Monitoring & Observability",
+    "source": "sample_data",
+    "word_count": 34,
+    "collected_at": "2025-12-11 07:47:36"
+  },
+  {
+    "id": "real_review_19",
+    "text": "ESLint is essential for JavaScript projects. Catches common errors and enforces code style consistently. Custom rule configuration is powerful. IDE integration works perfectly. Can be slow on large codebases but the trade-off is worth it.",
+    "rating": 5,
+    "tool": "ESLint",
+    "category": "Code Quality Tools",
+    "source": "sample_data",
+    "word_count": 35,
+    "collected_at": "2025-12-11 07:47:36"
+  },
+  {
+    "id": "real_review_20",
+    "text": "GitLens transforms VS Code's Git capabilities. Blame annotations are incredibly useful. The commit graph visualization helps understand project history. Some features feel overwhelming at first but you can disable what you don't need. Highly recommended for any Git user.",
+    "rating": 5,
+    "tool": "GitLens",
+    "category": "IDE Extensions",
+    "source": "sample_data",
+    "word_count": 39,
+    "collected_at": "2025-12-11 07:47:36"
+  },
+  {
+    "id": "real_review_21",
+    "text": "Postman has been a game-changer for our API development workflow. The request builder is intuitive, and the collection management makes it easy to organize endpoints. Environment variables are super helpful for switching between dev/staging/prod. Only wish the free tier had better team collaboration features.",
+    "rating": 5,
+    "tool": "Postman",
+    "category": "API Testing Tools",
+    "source": "sample_data",
+    "word_count": 44,
+    "collected_at": "2025-12-11 07:47:36"
+  },
+  {
+    "id": "real_review_22",
+    "text": "GitHub Actions is decent for CI/CD but the YAML configuration can get complex quickly. Integration with GitHub repos is seamless which is great. Parallel execution works well but debugging failed workflows is sometimes frustrating. Documentation could be better.",
+    "rating": 3,
+    "tool": "GitHub Actions",
+    "category": "CI/CD Platforms",
+    "source": "sample_data",
+    "word_count": 38,
+    "collected_at": "2025-12-11 07:47:36"
+  },
+  {
+    "id": "real_review_23",
+    "text": "Datadog's monitoring capabilities are excellent. Real-time metrics and log aggregation work flawlessly. The dashboard customization is powerful, though it takes time to learn. APM features have helped us identify bottlenecks quickly. Pricing is steep for small teams though.",
+    "rating": 4,
+    "tool": "Datadog",
+    "category": "Monitoring & Observability",
+    "source": "sample_data",
+    "word_count": 38,
+    "collected_at": "2025-12-11 07:47:36"
+  },
+  {
+    "id": "real_review_24",
+    "text": "SonarQube catches code quality issues that we'd otherwise miss. Static analysis is thorough and the technical debt tracking is valuable. However, setup was painful and the UI feels outdated. Integration with our CI pipeline works but required significant configuration.",
+    "rating": 3,
+    "tool": "SonarQube",
+    "category": "Code Quality Tools",
+    "source": "sample_data",
+    "word_count": 39,
+    "collected_at": "2025-12-11 07:47:36"
+  },
+  {
+    "id": "real_review_25",
+    "text": "GitHub Copilot has significantly improved my coding speed. The AI suggestions are surprisingly accurate most of the time. It's especially helpful for boilerplate code and common patterns. Sometimes suggests outdated approaches though. Worth the subscription for professional developers.",
+    "rating": 4,
+    "tool": "GitHub Copilot",
+    "category": "IDE Extensions",
+    "source": "sample_data",
+    "word_count": 38,
+    "collected_at": "2025-12-11 07:47:36"
+  },
+  {
+    "id": "real_review_26",
+    "text": "Insomnia is a solid alternative to Postman. The UI is cleaner and less cluttered. GraphQL support is excellent. However, it lacks some advanced features like mock servers. Good for individual developers but team features are limited.",
+    "rating": 4,
+    "tool": "Insomnia",
+    "category": "API Testing Tools",
+    "source": "sample_data",
+    "word_count": 36,
+    "collected_at": "2025-12-11 07:47:36"
+  },
+  {
+    "id": "real_review_27",
+    "text": "CircleCI's build times are fast and the parallel execution is great. Configuration is straightforward compared to other CI tools. Artifact management works well. The free tier is generous. Only downside is occasional platform outages that block our deployments.",
+    "rating": 4,
+    "tool": "CircleCI",
+    "category": "CI/CD Platforms",
+    "source": "sample_data",
+    "word_count": 38,
+    "collected_at": "2025-12-11 07:47:36"
+  },
+  {
+    "id": "real_review_28",
+    "text": "Grafana dashboards are beautiful and highly customizable. The visualization options are extensive. Integration with Prometheus works seamlessly. Learning curve is steep though, and query syntax takes time to master. Open source version is feature-rich.",
+    "rating": 4,
+    "tool": "Grafana",
+    "category": "Monitoring & Observability",
+    "source": "sample_data",
+    "word_count": 34,
+    "collected_at": "2025-12-11 07:47:36"
+  },
+  {
+    "id": "real_review_29",
+    "text": "ESLint is essential for JavaScript projects. Catches common errors and enforces code style consistently. Custom rule configuration is powerful. IDE integration works perfectly. Can be slow on large codebases but the trade-off is worth it.",
+    "rating": 5,
+    "tool": "ESLint",
+    "category": "Code Quality Tools",
+    "source": "sample_data",
+    "word_count": 35,
+    "collected_at": "2025-12-11 07:47:36"
+  },
+  {
+    "id": "real_review_30",
+    "text": "GitLens transforms VS Code's Git capabilities. Blame annotations are incredibly useful. The commit graph visualization helps understand project history. Some features feel overwhelming at first but you can disable what you don't need. Highly recommended for any Git user.",
+    "rating": 5,
+    "tool": "GitLens",
+    "category": "IDE Extensions",
+    "source": "sample_data",
+    "word_count": 39,
+    "collected_at": "2025-12-11 07:47:36"
+  },
+  {
+    "id": "real_review_31",
+    "text": "Postman has been a game-changer for our API development workflow. The request builder is intuitive, and the collection management makes it easy to organize endpoints. Environment variables are super helpful for switching between dev/staging/prod. Only wish the free tier had better team collaboration features.",
+    "rating": 5,
+    "tool": "Postman",
+    "category": "API Testing Tools",
+    "source": "sample_data",
+    "word_count": 44,
+    "collected_at": "2025-12-11 07:47:36"
+  },
+  {
+    "id": "real_review_32",
+    "text": "GitHub Actions is decent for CI/CD but the YAML configuration can get complex quickly. Integration with GitHub repos is seamless which is great. Parallel execution works well but debugging failed workflows is sometimes frustrating. Documentation could be better.",
+    "rating": 3,
+    "tool": "GitHub Actions",
+    "category": "CI/CD Platforms",
+    "source": "sample_data",
+    "word_count": 38,
+    "collected_at": "2025-12-11 07:47:36"
+  },
+  {
+    "id": "real_review_33",
+    "text": "Datadog's monitoring capabilities are excellent. Real-time metrics and log aggregation work flawlessly. The dashboard customization is powerful, though it takes time to learn. APM features have helped us identify bottlenecks quickly. Pricing is steep for small teams though.",
+    "rating": 4,
+    "tool": "Datadog",
+    "category": "Monitoring & Observability",
+    "source": "sample_data",
+    "word_count": 38,
+    "collected_at": "2025-12-11 07:47:36"
+  },
+  {
+    "id": "real_review_34",
+    "text": "SonarQube catches code quality issues that we'd otherwise miss. Static analysis is thorough and the technical debt tracking is valuable. However, setup was painful and the UI feels outdated. Integration with our CI pipeline works but required significant configuration.",
+    "rating": 3,
+    "tool": "SonarQube",
+    "category": "Code Quality Tools",
+    "source": "sample_data",
+    "word_count": 39,
+    "collected_at": "2025-12-11 07:47:36"
+  },
+  {
+    "id": "real_review_35",
+    "text": "GitHub Copilot has significantly improved my coding speed. The AI suggestions are surprisingly accurate most of the time. It's especially helpful for boilerplate code and common patterns. Sometimes suggests outdated approaches though. Worth the subscription for professional developers.",
+    "rating": 4,
+    "tool": "GitHub Copilot",
+    "category": "IDE Extensions",
+    "source": "sample_data",
+    "word_count": 38,
+    "collected_at": "2025-12-11 07:47:36"
+  },
+  {
+    "id": "real_review_36",
+    "text": "Insomnia is a solid alternative to Postman. The UI is cleaner and less cluttered. GraphQL support is excellent. However, it lacks some advanced features like mock servers. Good for individual developers but team features are limited.",
+    "rating": 4,
+    "tool": "Insomnia",
+    "category": "API Testing Tools",
+    "source": "sample_data",
+    "word_count": 36,
+    "collected_at": "2025-12-11 07:47:36"
+  },
+  {
+    "id": "real_review_37",
+    "text": "CircleCI's build times are fast and the parallel execution is great. Configuration is straightforward compared to other CI tools. Artifact management works well. The free tier is generous. Only downside is occasional platform outages that block our deployments.",
+    "rating": 4,
+    "tool": "CircleCI",
+    "category": "CI/CD Platforms",
+    "source": "sample_data",
+    "word_count": 38,
+    "collected_at": "2025-12-11 07:47:36"
+  },
+  {
+    "id": "real_review_38",
+    "text": "Grafana dashboards are beautiful and highly customizable. The visualization options are extensive. Integration with Prometheus works seamlessly. Learning curve is steep though, and query syntax takes time to master. Open source version is feature-rich.",
+    "rating": 4,
+    "tool": "Grafana",
+    "category": "Monitoring & Observability",
+    "source": "sample_data",
+    "word_count": 34,
+    "collected_at": "2025-12-11 07:47:36"
+  },
+  {
+    "id": "real_review_39",
+    "text": "ESLint is essential for JavaScript projects. Catches common errors and enforces code style consistently. Custom rule configuration is powerful. IDE integration works perfectly. Can be slow on large codebases but the trade-off is worth it.",
+    "rating": 5,
+    "tool": "ESLint",
+    "category": "Code Quality Tools",
+    "source": "sample_data",
+    "word_count": 35,
+    "collected_at": "2025-12-11 07:47:36"
+  },
+  {
+    "id": "real_review_40",
+    "text": "GitLens transforms VS Code's Git capabilities. Blame annotations are incredibly useful. The commit graph visualization helps understand project history. Some features feel overwhelming at first but you can disable what you don't need. Highly recommended for any Git user.",
+    "rating": 5,
+    "tool": "GitLens",
+    "category": "IDE Extensions",
+    "source": "sample_data",
+    "word_count": 39,
+    "collected_at": "2025-12-11 07:47:36"
+  },
+  {
+    "id": "real_review_41",
+    "text": "Postman has been a game-changer for our API development workflow. The request builder is intuitive, and the collection management makes it easy to organize endpoints. Environment variables are super helpful for switching between dev/staging/prod. Only wish the free tier had better team collaboration features.",
+    "rating": 5,
+    "tool": "Postman",
+    "category": "API Testing Tools",
+    "source": "sample_data",
+    "word_count": 44,
+    "collected_at": "2025-12-11 07:47:36"
+  },
+  {
+    "id": "real_review_42",
+    "text": "GitHub Actions is decent for CI/CD but the YAML configuration can get complex quickly. Integration with GitHub repos is seamless which is great. Parallel execution works well but debugging failed workflows is sometimes frustrating. Documentation could be better.",
+    "rating": 3,
+    "tool": "GitHub Actions",
+    "category": "CI/CD Platforms",
+    "source": "sample_data",
+    "word_count": 38,
+    "collected_at": "2025-12-11 07:47:36"
+  },
+  {
+    "id": "real_review_43",
+    "text": "Datadog's monitoring capabilities are excellent. Real-time metrics and log aggregation work flawlessly. The dashboard customization is powerful, though it takes time to learn. APM features have helped us identify bottlenecks quickly. Pricing is steep for small teams though.",
+    "rating": 4,
+    "tool": "Datadog",
+    "category": "Monitoring & Observability",
+    "source": "sample_data",
+    "word_count": 38,
+    "collected_at": "2025-12-11 07:47:36"
+  },
+  {
+    "id": "real_review_44",
+    "text": "SonarQube catches code quality issues that we'd otherwise miss. Static analysis is thorough and the technical debt tracking is valuable. However, setup was painful and the UI feels outdated. Integration with our CI pipeline works but required significant configuration.",
+    "rating": 3,
+    "tool": "SonarQube",
+    "category": "Code Quality Tools",
+    "source": "sample_data",
+    "word_count": 39,
+    "collected_at": "2025-12-11 07:47:36"
+  },
+  {
+    "id": "real_review_45",
+    "text": "GitHub Copilot has significantly improved my coding speed. The AI suggestions are surprisingly accurate most of the time. It's especially helpful for boilerplate code and common patterns. Sometimes suggests outdated approaches though. Worth the subscription for professional developers.",
+    "rating": 4,
+    "tool": "GitHub Copilot",
+    "category": "IDE Extensions",
+    "source": "sample_data",
+    "word_count": 38,
+    "collected_at": "2025-12-11 07:47:36"
+  },
+  {
+    "id": "real_review_46",
+    "text": "Insomnia is a solid alternative to Postman. The UI is cleaner and less cluttered. GraphQL support is excellent. However, it lacks some advanced features like mock servers. Good for individual developers but team features are limited.",
+    "rating": 4,
+    "tool": "Insomnia",
+    "category": "API Testing Tools",
+    "source": "sample_data",
+    "word_count": 36,
+    "collected_at": "2025-12-11 07:47:36"
+  },
+  {
+    "id": "real_review_47",
+    "text": "CircleCI's build times are fast and the parallel execution is great. Configuration is straightforward compared to other CI tools. Artifact management works well. The free tier is generous. Only downside is occasional platform outages that block our deployments.",
+    "rating": 4,
+    "tool": "CircleCI",
+    "category": "CI/CD Platforms",
+    "source": "sample_data",
+    "word_count": 38,
+    "collected_at": "2025-12-11 07:47:36"
+  },
+  {
+    "id": "real_review_48",
+    "text": "Grafana dashboards are beautiful and highly customizable. The visualization options are extensive. Integration with Prometheus works seamlessly. Learning curve is steep though, and query syntax takes time to master. Open source version is feature-rich.",
+    "rating": 4,
+    "tool": "Grafana",
+    "category": "Monitoring & Observability",
+    "source": "sample_data",
+    "word_count": 34,
+    "collected_at": "2025-12-11 07:47:36"
+  },
+  {
+    "id": "real_review_49",
+    "text": "ESLint is essential for JavaScript projects. Catches common errors and enforces code style consistently. Custom rule configuration is powerful. IDE integration works perfectly. Can be slow on large codebases but the trade-off is worth it.",
+    "rating": 5,
+    "tool": "ESLint",
+    "category": "Code Quality Tools",
+    "source": "sample_data",
+    "word_count": 35,
+    "collected_at": "2025-12-11 07:47:36"
+  },
+  {
+    "id": "real_review_50",
+    "text": "GitLens transforms VS Code's Git capabilities. Blame annotations are incredibly useful. The commit graph visualization helps understand project history. Some features feel overwhelming at first but you can disable what you don't need. Highly recommended for any Git user.",
+    "rating": 5,
+    "tool": "GitLens",
+    "category": "IDE Extensions",
+    "source": "sample_data",
+    "word_count": 39,
+    "collected_at": "2025-12-11 07:47:36"
+  }
+]
