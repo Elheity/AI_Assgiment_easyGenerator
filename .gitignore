@@ -36,12 +36,6 @@ ENV/
 *.swo
 *~
 
-# Generated data
-data/generated_reviews/*.json
-reports/*.md
-reports/*.png
-reports/*.jpg
-
 # Testing
 .pytest_cache/
 .coverage
