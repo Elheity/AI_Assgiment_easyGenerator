@@ -19,6 +19,12 @@ models:
     enabled: true
     temperature: 0.8
     max_tokens: 500
+    
+  - name: "qwen2.5:1.5b"
+    provider: "ollama"
+    enabled: false
+    temperature: 0.8
+    max_tokens: 500
 
 # Personas - Different types of developers
 personas:
