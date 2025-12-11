@@ -1,10 +1,10 @@
 # Synthetic Review Generator with Quality Guardrails
 
-A production-ready synthetic data generator for dev tool reviews with automated quality guardrails. Uses OpenAI GPT-4 and Ollama qwen:7b to generate realistic, diverse reviews with comprehensive quality validation.
+A production-ready synthetic data generator for dev tool reviews with automated quality guardrails. Uses Mistral mistral and Ollama qwen:7b to generate realistic, diverse reviews with comprehensive quality validation.
 
 ## Features
 
-- ✅ **Multi-Model Generation**: OpenAI GPT-4 + Ollama qwen:7b
+- ✅ **Multi-Model Generation**: Mistral mistral-large-latest + Ollama qwen:7b
 - ✅ **Quality Guardrails**: Diversity metrics, bias detection, realism validation
 - ✅ **Automated Rejection/Regeneration**: Low-quality samples automatically filtered
 - ✅ **Configurable**: YAML-based configuration for personas, ratings, tool categories
@@ -81,7 +81,8 @@ synthetic-review-generator/
 │   ├── generators/
 │   │   ├── base_generator.py     # Abstract base class
 │   │   ├── openai_generator.py   # OpenAI GPT-4 integration
-│   │   └── ollama_generator.py   # Ollama qwen:7b integration
+│   │   └── ollama_generator.py
+        └── mistral_generator.py   
 │   ├── quality/
 │   │   ├── diversity_metrics.py  # Vocabulary & semantic diversity
 │   │   ├── bias_detector.py      # Sentiment-rating alignment
@@ -118,9 +119,9 @@ Edit `config/config.yaml` to customize:
 2. **Quality Validation**: Easier to detect unrealistic claims
 3. **Real Data Availability**: Abundant reviews on G2, ProductHunt, GitHub
 
-### Why GPT-4 and qwen:7b?
+### Why mistral-large-latest and qwen:7b?
 
-1. **GPT-4**: High-quality output, excellent instruction following
+1. **mistral-large-latest**: High-quality output, excellent instruction following
 2. **qwen:7b**: Local model, no API costs, good for comparison
 3. **Diversity**: Different model architectures produce varied outputs
 
@@ -146,9 +147,9 @@ Edit `config/config.yaml` to customize:
 - **Rationale**: Assignment emphasizes quality guardrails
 
 ### Local vs API Models
-- **Choice**: Hybrid approach (GPT-4 + qwen:7b)
+- **Choice**: Hybrid approach (mistral-large-latest + qwen:7b)
 - **Impact**: Balanced cost and quality
-- **Rationale**: GPT-4 for quality, qwen:7b for cost-free local generation
+- **Rationale**: mistral-large-latest for quality, qwen:7b for cost-free local generation
 
 ### Real Data Collection
 - **Choice**: Sample real reviews instead of web scraping
@@ -179,29 +180,6 @@ Edit `config/config.yaml` to customize:
 - Synthetic vs real comparison
 - Visualizations (rating distribution, quality scores, etc.)
 
-## Example Output
-
-```json
-{
-  "review_text": "GitHub Actions has streamlined our CI/CD pipeline significantly...",
-  "metadata": {
-    "model": "gpt-4",
-    "provider": "openai",
-    "generation_time": 2.34,
-    "tokens_used": 456,
-    "persona": "DevOps Engineer",
-    "tool_category": "CI/CD Platforms",
-    "rating": 4
-  },
-  "quality_score": {
-    "overall_quality_score": 78.5,
-    "should_accept": true,
-    "diversity": {...},
-    "bias": {...},
-    "realism": {...}
-  }
-}
-```
 
 ## Testing
 
@@ -231,8 +209,10 @@ python -m src.cli generate --count 10
 
 **Memory Issues:**
 - Reduce batch size in config
-- Use smaller model (qwen:7b is already small)
-
+- Reduce number of genrated reviews to be 50 because the limitation of the hardware and gpu
+- use mistral-large-latest and mistral-small-latest
+- i tried to use ollama as local model but i faced  a problems in the gpu limitations
+  
 ## License
 
 MIT License - See LICENSE file for details
